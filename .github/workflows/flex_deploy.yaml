@@ -72,7 +72,6 @@ jobs:
         id: initial-env
         run: |
           npm install --ignore-scripts
-      - name: validate environment
 
   # When performing an initial release
   # the serverless backend needs an initial deploy so
