@@ -185,7 +185,6 @@ jobs:
       OVERWRITE_CONFIG: ${{ inputs.initial_release == true || inputs.overwrite_config == true }}
     needs:
       - deploy-packages
-      - validate-environment
     steps:
       - uses: actions/checkout@v4
       - name: setup node.js
